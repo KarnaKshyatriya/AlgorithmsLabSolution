@@ -18,10 +18,8 @@ public class Lab1 {
 		System.out.println("Enter the size of transaction array");
 		Scanner sc=new Scanner(System.in);
 		index = sc.nextInt();
-		//arr=new int[index+1];
 		ac=new ArrayCreator();
 		arr=ac.funArrayCreator(index);
-		//arr[index]=0;
 
 		ml=new MainLogic();
 		System.out.println("Enter the total no of targets that needs to be achieved");
@@ -38,7 +36,7 @@ public class Lab1 {
 
 		}
 
-sc.close();
+		sc.close();
 
 	}
 	public static void main(String args[])
